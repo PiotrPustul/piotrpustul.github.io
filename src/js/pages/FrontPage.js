@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const FrontPage = () => {
   return (
     <>
@@ -11,9 +14,9 @@ const FrontPage = () => {
       <div className="main-section__context">
         <p>
           Welcome to my website. Please feel free to read more
-          <a href="/about">about me,</a>you can see the
-          <a href="/projects">projects</a>I worked on recently or
-          <a href="/contact">contact me</a>.
+          <Link to="/about">about me,</Link>you can see the
+          <Link to="/projects">projects</Link>I worked on recently or
+          <Link to="/contact">contact me</Link>.
         </p>
       </div>
     </>
