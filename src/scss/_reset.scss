@@ -1,0 +1,23 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: $body-color !important;
+  font-family: $text-font, "helvetica" !important;
+  padding-top: 6rem;
+}
+
+a {
+  &:hover {
+    color: #2e59ba !important;
+  }
+}

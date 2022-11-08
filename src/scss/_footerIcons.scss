@@ -1,0 +1,20 @@
+.icons {
+  margin: 0;
+  padding: 3rem 0 0;
+  display: flex;
+  align-items: flex-end;
+
+  li {
+    list-style-type: none;
+    padding-right: 2rem;
+
+    a {
+      color: $text-color;
+      .iconify {
+        &:hover {
+          color: #2e59ba !important;
+        }
+      }
+    }
+  }
+}

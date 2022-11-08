@@ -1,0 +1,298 @@
+.sections {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+
+  #main-section {
+    width: 100%;
+    background-color: $white-color;
+    border-top: 0.5px solid $border-color;
+    border-bottom: 0.5px solid $border-color;
+    margin: 2rem 0 0 0;
+
+    .main-section__heading {
+      border-bottom: 0.5px solid $border-color;
+      padding: 0 2rem 5rem;
+
+      h2 {
+        font-family: $header-font;
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: 0.25em;
+        margin: 0;
+        padding: 5rem 0 0;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      p {
+        font-family: $header-font;
+        font-size: 1.2rem;
+        letter-spacing: 0.25em;
+        line-height: 2;
+        margin: 0;
+        padding: 1rem 0 0;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+
+    .main-section__context {
+      padding: 3rem 2rem;
+
+      h3 {
+        font-family: $header-font;
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+      }
+
+      p {
+        color: $text-color;
+        font-size: 1.6rem;
+        font-family: $text-font;
+
+        span {
+          font-weight: 500;
+        }
+
+        a {
+          margin: 0 0.5rem;
+          font-style: italic;
+        }
+      }
+
+      a {
+        border-bottom: 1px dotted hsla(0, 0%, 63%, 0.65);
+        color: $text-color;
+        font-size: 1.4rem;
+        font-family: $text-font;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        margin-bottom: 2rem;
+        text-decoration: none;
+
+        &:hover {
+          border-bottom: none;
+        }
+      }
+
+      .main-section__project {
+        border: 0.5px solid $border-color;
+        border-radius: 5px;
+        margin: 0 0 3rem;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        header {
+          padding: 2rem 2rem 0.5rem;
+
+          a {
+            text-decoration: none;
+            color: $heading-color;
+            margin: 0;
+
+            h3 {
+              font-size: 1.6rem;
+              font-family: $header-font;
+              font-weight: 700;
+              letter-spacing: 0.1em;
+              line-height: 1.5;
+              margin: 0 0 1rem;
+            }
+          }
+
+          .worked-since {
+            color: $text-color;
+            font-size: 1.4rem;
+          }
+        }
+
+        .main-section__project-image {
+          width: 100%;
+          margin: 0;
+          overflow: hidden;
+          padding: 1rem 1.5rem;
+          display: block;
+
+          img {
+            border: 0.5px solid $border-color;
+            border-radius: 5px;
+            max-width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+              rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          }
+        }
+
+        .description {
+          padding: 2rem;
+
+          h4 {
+            font-family: $header-font;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+
+            a {
+              margin-left: 0.5rem;
+              font-family: $text-font;
+              font-size: inherit;
+              font-weight: inherit;
+
+              span {
+                color: rgb(218, 0, 0);
+              }
+            }
+          }
+
+          p {
+            font-size: 1.4rem;
+            font-family: $header-font;
+            line-height: 1.5;
+            margin: 0;
+
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+
+      .main-section__about-container {
+        margin-bottom: 3rem;
+
+        &:last-child {
+          margin-bottom: 0;
+
+          p {
+            margin: 0;
+          }
+        }
+
+        p {
+          color: $text-color;
+          line-height: 2;
+
+          span {
+            color: $heading-color;
+          }
+        }
+
+        ul {
+          margin-bottom: 1.5rem;
+          padding-left: 1.5rem;
+          li {
+            color: $text-color;
+            line-height: 2;
+            font-size: 1.6rem;
+
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .sections {
+    #main-section {
+      margin: 5rem 0 0 0;
+      border-left: 0.5px solid $border-color;
+      border-right: 0.5px solid $border-color;
+
+      .main-section__heading {
+        padding: 0 4.5rem 5rem;
+
+        h2 {
+          font-size: 2.4rem;
+          font-weight: 900;
+          text-align: left;
+        }
+
+        p {
+          padding-top: 2.5rem;
+          text-align: left;
+        }
+      }
+
+      .main-section__context {
+        padding: 5rem 4.5rem;
+
+        .main-section__project {
+          header {
+            a {
+              h3 {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1281px) {
+  .sections {
+    flex-direction: row;
+    align-items: flex-start;
+
+    #sidebar {
+      width: 30%;
+      padding: 0 4.5rem 0 0;
+      margin: 5rem 0 0 0;
+
+      #intro {
+        border-top: unset;
+        padding-top: 0;
+        align-items: flex-start;
+
+        h2 {
+          text-align: left;
+          font-size: 2.4rem;
+        }
+      }
+    }
+
+    #main-section {
+      width: 70%;
+      margin-bottom: 5rem;
+
+      .main-section__context {
+        .main-section__project {
+          header {
+            a {
+              h3 {
+                font-size: 1.6rem;
+              }
+            }
+          }
+
+          .description {
+            p {
+              font-size: 1.6rem;
+            }
+
+            h4 {
+              margin-bottom: 2rem;
+
+              a {
+                &:hover {
+                  text-decoration: none;
+                  border-bottom: none;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

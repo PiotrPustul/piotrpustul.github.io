@@ -1,0 +1,27 @@
+#footer {
+  .copywrite {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+
+    p {
+      color: $text-color;
+      font-size: 1.2rem;
+      font-weight: 100;
+      font-family: $header-font;
+      margin: 0;
+      padding-right: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #footer {
+    .copywrite {
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
