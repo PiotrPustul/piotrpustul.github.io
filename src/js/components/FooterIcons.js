@@ -7,7 +7,7 @@ const FooterIcons = () => {
   return (
     <ul className="icons">
       <li>
-        <a href="https://github.com/pepe199111">
+        <a href="https://github.com/piotrpustul">
           <FaGithub size={25} />
         </a>
       </li>

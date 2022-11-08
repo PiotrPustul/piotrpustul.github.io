@@ -11,7 +11,7 @@ const MainSection = () => {
   return (
     <section id="main-section">
       <Routes>
-        <Route path="/piotrpustul" element={<FrontPage />} />
+        <Route path="/" element={<FrontPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
