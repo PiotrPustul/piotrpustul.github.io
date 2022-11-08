@@ -52,16 +52,83 @@ const About = () => {
           </p>
           <ul>
             <li>
-              <span>3B Digital</span> <br />
+              <a href="https://www.3bweb.com/">
+                <span>3B Digital</span>
+              </a>
+              <br />
               Web Developer, September 2021 - September 2022
+              <ul>
+                <li>
+                  Scopes, plans, develops, tests new features for existing
+                  projects, and participates in the full life-cycle of new
+                  projects
+                </li>
+                <li>
+                  Participates in deployment processes (development to test, to
+                  staging, to production)
+                </li>
+                <li>
+                  Offers technical guidance, communication, and solutions to
+                  submitted tasks
+                </li>
+                <li>
+                  Assists in implementation services, and solution testing, and
+                  participates in solution design
+                </li>
+                <li>
+                  Sticking to the team's designated plan, discussing and solving
+                  problems together
+                </li>
+                <li>
+                  Creation and development of various projects using HTML, SCSS,
+                  JavaScript, JQuery, React, Redux, PHP, Twig, Drupal
+                </li>
+                <li>
+                  Implementing projects based on mockups provided by the Graphic
+                  Designers team
+                </li>
+              </ul>
             </li>
             <li>
-              <span>Fair</span> <br />
+              <a href="https://hellofair.io/">
+                <span>Fair</span>
+              </a>
+              <br />
               Web Developer, May 2021 - July 2021
+              <ul>
+                <li>
+                  Work on constructing the layout of the company's website
+                </li>
+              </ul>
             </li>
             <li>
-              <span>Freelancer</span> <br />
+              <a href="/">
+                <span>Freelancer</span> <br />
+              </a>
               Web Developer, September 2020 - April 2021
+              <ul>
+                <li>
+                  Development of own projects based on JavaScript/React
+                  technology with the use of HTML, CSS/SCSS
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://www.youngs.co.uk/">
+                <span>Young & Co Brewery </span>
+                <br />
+              </a>
+              Pub Assistant Manager, November 2018 - May 2021
+              <ul>
+                <li>
+                  Organisation and division of labour within the team have
+                  resulted in better service and attitude to customers
+                </li>
+                <li>Monitor and coordinate store inventory</li>
+                <li>Supervise and motivate staff to perform their best</li>
+                <li>Ensuring the smooth running of the computer system</li>
+                <li>Train and assist a team in using the system</li>
+              </ul>
             </li>
           </ul>
         </div>

@@ -6,7 +6,7 @@ const Navigation = (props) => {
     <nav id="navigation" className={props.class}>
       <ul>
         <li className="front-page-link">
-          <NavLink to="/piotrpustul">Piotr Pustul</NavLink>
+          <NavLink to="/">Piotr Pustul</NavLink>
         </li>
         <li>
           <NavLink to="about">About</NavLink>
