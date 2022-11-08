@@ -21,7 +21,10 @@ const About = () => {
           <h3>Education</h3>
           <ul>
             <li>
-              <span>Coders Lab IT School - Javascript Developer</span> <br />
+              <a href="https://coderslab.com/en">
+                <span>Coders Lab - IT Academy - Javascript Developer</span>
+                <br />
+              </a>
               Warsaw Poland, December 2019 - June 2020
               <br />
               Group workshop simulating the everyday work of a programmer with
